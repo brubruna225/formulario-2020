@@ -1,0 +1,55 @@
+body {
+	background-image: url(form.png);
+	font-family: 'Oswald', sans-serif;
+}
+
+h1{
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+} 
+ 
+div#formulario {
+	width: 600px;
+	margin: 0 auto;
+	padding: 30px;
+	border-radius:;
+	background-color: ;
+	font-size: 20px;
+	border-radius: 15px;
+	border: 3px solid #d10202;
+}
+
+label {
+	margin: 10px;
+	font-size: 21px;
+}
+
+input[type=text], select {
+	width: 95%;
+	border: 2px solid #d10202;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #ff6565;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+fieldset {
+	border: 2px solid #d10202
+}
+
+input[type=text], select: focus {
+	background-color: #cc0000;
+}
+
+input[type=submit] {
+	width: 95%;
+	border: 2px  solid #d10202;
+	margin: 10px; 
+	padding: 20px;
+	background-color: #ff6565;
+	color: #d10202;
+	font-size: 30pt;
+	cursor: pointer;
+}
